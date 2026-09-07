@@ -41,7 +41,7 @@ Author of two peer-reviewed international publications in applied deep learning,
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/<your-github-username>/abhijeet-portfolio.git
+git clone https://github.com/abhijit1620/abhijit-portfolio.git
 cd abhijeet-portfolio
 npm install
 ```
@@ -67,9 +67,6 @@ vercel --prod
 ## Contact
 
 - **Portfolio:** [abhijeet-portfolio-gamma.vercel.app](https://abhijeet-portfolio-gamma.vercel.app)
-- **GitHub:** [your-github-link]
-- **LinkedIn:** [your-linkedin-link]
-- **Email:** [your-email]
 
 Open to opportunities and collaboration in AI/ML, LLM development, and data engineering.
 
