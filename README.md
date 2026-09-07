@@ -42,7 +42,7 @@ Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/abhijit1620/abhijit-portfolio.git
-cd abhijeet-portfolio
+cd abhijit-portfolio
 npm install
 ```
 
