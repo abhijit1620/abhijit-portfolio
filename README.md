@@ -1,31 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Abhijit Sharma — Portfolio
+
+Personal portfolio website showcasing my work in AI/ML, LLM development, and data engineering.
+
+🔗 **Live:** [abhijeet-portfolio-gamma.vercel.app](https://abhijeet-portfolio-gamma.vercel.app)
+
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel&logoColor=white)
+
+---
+
+## About
+
+AI/ML engineer (B.Tech 2026, AI & ML specialization) with hands-on experience across:
+- **LLM post-training & fine-tuning** — Ethara.AI
+- **Data science & ML** — Zidio Development
+- **Data engineering & visualization** — HCLTech
+
+Author of two peer-reviewed international publications in applied deep learning, and co-organizer at GDG on Campus.
+
+## Tech Stack
+
+| Layer | Tech |
+|---|---|
+| Framework | [Next.js](https://nextjs.org) (App Router) |
+| Language | TypeScript |
+| UI Effects | [tsparticles](https://particles.js.org) — interactive background particles |
+| Fonts | [Geist](https://vercel.com/font) via `next/font` |
+| Hosting | [Vercel](https://vercel.com) |
+
+## Features
+
+- Responsive single-page portfolio layout
+- Interactive animated particle background
+- Sections for About, Skills, Projects, Publications, and Contact *(edit `app/page.tsx` to customize)*
+- Optimized fonts and fast page loads out of the box with Next.js
 
 ## Getting Started
 
-First, run the development server:
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/<your-github-username>/abhijeet-portfolio.git
+cd abhijeet-portfolio
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser. The page auto-updates as you edit `app/page.tsx`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deployed on [Vercel](https://vercel.com):
 
-## Learn More
+```bash
+vercel --prod
+```
 
-To learn more about Next.js, take a look at the following resources:
+**Live URL:** https://abhijeet-portfolio-gamma.vercel.app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Portfolio:** [abhijeet-portfolio-gamma.vercel.app](https://abhijeet-portfolio-gamma.vercel.app)
+- **GitHub:** [your-github-link]
+- **LinkedIn:** [your-linkedin-link]
+- **Email:** [your-email]
 
-## Deploy on Vercel
+Open to opportunities and collaboration in AI/ML, LLM development, and data engineering.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to fork this project as a starting point for your own portfolio — just swap in your own content.
