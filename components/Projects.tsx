@@ -32,14 +32,14 @@ const projects: Project[] = [
   },
   {
     title: "AI NeuroAssist",
-    desc: "Lets paralyzed patients type and speak using eye movement and blinks: eye tracking, virtual keyboard, word prediction, text-to-speech.",
+    desc: "Lets paralyzed patients type and speak using eye movement and blinks: eye tracking, virtual keyboard, word prediction, text-to-speech. Published in IJRASET (Apr 2026).",
     tags: ["Computer Vision", "MediaPipe", "Python"],
     github: "https://github.com/abhijit1620/AI-NeuroAssist-For-Paralyzed-Patients",
   },
   {
     title: "FusionNet",
-    desc: "Multimodal stress detection using deep learning.",
-    tags: ["Deep Learning", "PyTorch", "Research"],
+    desc: "Late-fusion model combining face (ResNet18), audio (2D-CNN) and physiological (1D-CNN) signals. 83% accuracy on WESAD and DEAP, 9-13% above single-signal models. Published in IJERCCE (Feb 2026).",
+    tags: ["Deep Learning", "PyTorch", "TensorFlow", "Research"],
     github: "https://github.com/abhijit1620/Multimodal-Stress-Detection",
   },
   {
