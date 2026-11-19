@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+import { asset } from "@/lib/asset";
 
 const stats = [
   { value: "1", label: "Live production platform" },
@@ -19,17 +19,6 @@ export default function Hero() {
         transition={{ duration: 1 }}
         className="text-center"
       >
-        <div className="flex justify-center mb-8">
-          <Image
-            src="/profile.jpg"
-            alt="Abhijit Sharma"
-            width={200}
-            height={200}
-            priority
-            className="rounded-full object-cover border-4 border-cyan-400 shadow-[0_0_40px_rgba(34,211,238,0.7)]"
-          />
-        </div>
-
         <span className="inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-400/10 px-3 sm:px-4 py-1.5 text-xs sm:text-sm text-emerald-300">
           <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
           Open to freelance projects & full-time roles
@@ -58,7 +47,7 @@ export default function Hero() {
             See my work
           </a>
           <a
-            href="/resume.pdf"
+            href={asset("/resume.pdf")}
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 rounded-xl border border-white/20 hover:border-cyan-400 transition"

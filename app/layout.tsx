@@ -16,16 +16,16 @@ const description =
   "Full-stack & AI developer. I build production web and mobile apps (Flutter, Django, Next.js, AWS) and AI systems (LLM fine-tuning, RAG, computer vision).";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://abhijeet-portfolio-gamma.vercel.app"),
+  metadataBase: new URL(process.env.SITE_URL ?? "https://abhijit1620.github.io/abhijit-portfolio/"),
   title: "Abhijit Sharma · Full-Stack & AI Developer",
   description,
   openGraph: {
     title: "Abhijit Sharma · Full-Stack & AI Developer",
     description,
-    images: [{ url: "/og.png", width: 1200, height: 675 }],
+    images: [{ url: "og.png", width: 1200, height: 675 }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", images: ["/og.png"] },
+  twitter: { card: "summary_large_image", images: ["og.png"] },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

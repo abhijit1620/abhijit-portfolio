@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { asset } from "@/lib/asset";
 
 const points = [
   "Control-room website: daily route planning per depot, live map of every van, add or reorder stops mid-route, instant alerts",
@@ -21,9 +22,9 @@ export default function Featured() {
         </p>
 
         <div className="mt-12 rounded-2xl overflow-hidden border border-white/10 bg-white">
-          <a href="/reborn-system.png" target="_blank" rel="noopener noreferrer" title="Open full size">
+          <a href={asset("/reborn-system.png")} target="_blank" rel="noopener noreferrer" title="Open full size">
             <Image
-              src="/reborn-system.png"
+              src={asset("/reborn-system.png")}
               alt="Reborn system diagram: users, apps, cloud backend, services and a day on the road"
               width={2200}
               height={1730}
